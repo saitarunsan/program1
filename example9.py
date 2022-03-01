@@ -24,6 +24,7 @@ orders('sai tarun',False)
 about()
 '''
 
+'''
 def checker(f1):
     def inner(a,b):
         if b==0:
@@ -33,10 +34,7 @@ def checker(f1):
         f1(a,b)
     return inner
 
-
-
 @checker
 def divd(a,b):
     print(a/b)
-
-p = divd(14,7)
+divd(14,7)'''
